@@ -4,7 +4,7 @@ using namespace std;
 int  main (int  argc,char **argv) {
     int n ,sum=0;
     string num;
-	cin >> n;
+    cin >> n;
     for(int i=0; i<n ; i++) {
 	sum=0;
 	cin >> num;
@@ -17,6 +17,5 @@ int  main (int  argc,char **argv) {
 	else cout << "false";
     	cout << endl;
     }
-
     return 0 ;
 }
